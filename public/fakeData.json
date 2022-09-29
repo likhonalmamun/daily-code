@@ -1,0 +1,44 @@
+[
+  {
+    "activity": "Finish Module",
+    "detail": "Watch rest videos and take notes clearly on the module .",
+    "duration": 120,
+    "img": "https://static.vecteezy.com/system/resources/previews/000/271/024/large_2x/vector-web-development-web-banner.jpg"
+  },
+  {
+    "activity": "Practice Task",
+    "detail": "Practice the topics of current module and more by reading articles and watching videos .",
+    "duration": 150,
+    "img": "https://smsh-862737-juc1ugur1qwqqqo4.stackpathdns.com/2569356/wp-content/uploads/2020/11/AdobeStock_241083104-1400x934.jpg?size=1400x934&lossy=1&strip=1&webp=1"
+  },
+  {
+    "activity": "Join Support Session",
+    "detail": "Join support session for fixing issues .",
+    "duration": 70,
+    "img": ""
+  },
+  {
+    "activity": "Visit Facebook Group",
+    "detail": "Go to facebook group to ask confusing questions or help others to get more confidence .",
+    "duration": 25,
+    "img": ""
+  },
+  {
+    "activity": "Extra Practice",
+    "detail": "Make a  similar project or do the same project one more time .",
+    "duration": 90,
+    "img": "https://www.pwm.ca/wp-content/uploads/2021/12/Avantages-du-de%CC%81veloppement-Web-1100x733.jpeg"
+  },
+  {
+    "activity": "Attend Conceptual Session",
+    "detail": "Attend Live Conceptual Session For Ultimate Rivision And Get Ready For New Topics .",
+    "duration": 100,
+    "img": ""
+  },
+  {
+    "activity": "Start New Module",
+    "detail": "Watch New Module Videos And Try To Understand As Much As Possible .",
+    "duration": 120,
+    "img": "https://wpe.hoffmanacademy.com/wp-content/uploads/2021/02/next-lesson.jpg"
+  }
+]
