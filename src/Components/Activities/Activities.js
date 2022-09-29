@@ -1,7 +1,7 @@
 import React from "react";
 import "../Activities/Activities.css";
 import Task from "../Task/Task";
-const Activities = ({ activities }) => {
+const Activities = ({ activities ,fcn }) => {
   // console.log(activities)
   return (
      
@@ -10,7 +10,7 @@ const Activities = ({ activities }) => {
       <div className="activities">
       {activities.map((task) => {
         // console.log(task)
-        return <Task key={task.key} task={task}></Task>;
+        return <Task key={task.key} addTask={fcn} task={task}></Task>;
       })}
       </div>
     </div>
