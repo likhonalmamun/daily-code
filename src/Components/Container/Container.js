@@ -4,6 +4,7 @@ import Activities from "../Activities/Activities";
 import Summery from "../Summery/Summery";
 const Container = () => {
   const [activities, setActivities] = useState([]);
+  const [taskTime,setTaskTime] = useState([])
   useEffect(() => {
     fetch("fakeData.json")
       .then((res) => res.json())
