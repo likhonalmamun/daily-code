@@ -6,9 +6,8 @@ const Header = () => {
   return (
     <div className="header">
       <p>
-        {" "}
-        <FontAwesomeIcon icon={faTasks}></FontAwesomeIcon>{" "}
-        <span style={{ color: "red" }}>Daily</span> Code{" "}
+        <FontAwesomeIcon icon={faTasks}></FontAwesomeIcon>
+        <span style={{ color: "red" }}>Daily</span> Code
       </p>
       <hr />
     </div>
