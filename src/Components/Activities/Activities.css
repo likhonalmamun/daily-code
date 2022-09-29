@@ -1,16 +1,47 @@
-.activities{
-    
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 25px;
-    padding: 25px;
-    background-color: rgba(241, 240, 240, 0.664);
-    border-radius: 15px;
-    box-shadow: gray 0px 0px 10px;
-    /* gap: 35px; */
+.activities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 25px;
+  background-color: rgba(241, 240, 240, 0.664);
+  border-radius: 15px;
+  box-shadow: gray 0px 0px 10px;
+  /* gap: 35px; */
 }
 .left h1 {
-    margin-left: 30px;
-    margin-bottom: 25px;
-    color: rgb(41, 43, 132);
+  margin-left: 30px;
+  margin-bottom: 25px;
+  color: rgb(41, 43, 132);
+}
+@media only screen and (max-width: 1100px) {
+  .activities {
+    padding: 12px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .activities {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 800px) {
+  .activities {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 545px) {
+  .activities {
+    padding: 5px;
+    gap: 8px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .activities {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .activities {
+    padding: 5px;
+  }
 }

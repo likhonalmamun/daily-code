@@ -1,5 +1,5 @@
 .summery {
-  max-height: 850px;
+  height: fit-content;
   margin-top: 90px;
   border-radius: 10px;
   padding: 35px;
@@ -76,12 +76,34 @@
   border: none;
   background: rgba(151, 87, 241, 0.633);
   /* text-align: center; */
-  display:block;
+  display: block;
   margin: 20px auto;
   border-radius: 7px;
   font-size: large;
 }
-.complete-btn:hover{
+.complete-btn:hover {
   background-color: rgb(154, 36, 250);
   color: aliceblue;
+}
+@media only screen and (max-width: 1200px) {
+  .summery {
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .summery {
+    padding: 35px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .summery {
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .summery {
+    overflow: hidden;
+    max-width: 280;
+    margin: 90px 0px;
+  }
 }

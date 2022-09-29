@@ -4,9 +4,9 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import "../Summery/Summery.css";
-import "../../media.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "../../media.css";
 const Summery = ({ time }) => {
   let [breakTime, setBreakTime] = useState("0m");
   let storedTime = localStorage.getItem("break");

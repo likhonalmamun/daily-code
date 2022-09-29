@@ -1,5 +1,6 @@
 import React from "react";
 import "../Questions/Questions.css";
+import "../../media.css"
 const Questions = () => {
   return (
     <div className="all-q">
