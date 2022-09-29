@@ -1,5 +1,4 @@
 .App {
-  
   max-width: 1300px;
   margin: auto;
 }
@@ -25,7 +24,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.App h1 {
+  margin-left: 20px;
+  font-size: 19px;
+}
 .App-link {
   color: #61dafb;
 }

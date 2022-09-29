@@ -14,7 +14,6 @@
 .task-info,
 .break-info {
   display: flex;
-  /* height: 60px; */
   margin: 20px auto;
   background-color: white;
   padding: 20px;
@@ -75,7 +74,6 @@
   padding: 13px 30px;
   border: none;
   background: rgba(151, 87, 241, 0.633);
-  /* text-align: center; */
   display: block;
   margin: 20px auto;
   border-radius: 7px;

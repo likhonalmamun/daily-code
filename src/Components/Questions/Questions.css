@@ -3,8 +3,8 @@
   border: 2px solid rgb(5, 252, 170);
   background-color: rgb(117, 242, 250);
   margin: 10px auto;
+  border-radius: 5px;
 }
-.all-q{
-  gap: 25px;
+.all-q {
   padding: 15px;
 }

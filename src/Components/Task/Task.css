@@ -43,8 +43,6 @@
   border: 2px solid rgba(3, 205, 138, 0.825);
 }
 .task button:hover {
-  /* font-size: 14px;
-  font-weight: 400; */
   background-color: aliceblue;
   border: 2px solid rgba(3, 205, 138, 0.825);
 }
