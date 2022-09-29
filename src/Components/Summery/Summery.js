@@ -5,7 +5,9 @@ const Summery = () => {
 
  let [breakTime , setBreakTime] = useState('')
 
-
+function update (time) {
+setBreakTime(time)
+}
 
   return (
     <div className="summery">
@@ -29,17 +31,17 @@ const Summery = () => {
       </div>
     <h2>  Add a break</h2>
       <div className="break">
-        <button >5m</button>
-        <button>10m</button>
-        <button>20m</button>
-        <button>30m</button>
+        <button  onClick={()=>update('5m')}>5m</button>
+        <button onClick={()=>update('10m')}>10m</button>
+        <button onClick={()=>update('20m')}>20m</button>
+        <button onClick={()=>update('30m')}>30m</button>
       </div>
       <h2>Task Details</h2>
       <div className="task-info">
         <h2>Task Duration : <span>   </span> </h2>
       </div>
       <div className="break-info">
-        <h2>Break Time : <span>  </span> </h2>
+        <h2>Break Time : {breakTime}<span>  </span> </h2>
       </div>
     </div>
   );
