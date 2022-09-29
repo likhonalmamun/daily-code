@@ -1,0 +1,10 @@
+.question {
+  padding: 15px;
+  border: 2px solid rgb(5, 252, 170);
+  background-color: rgb(117, 242, 250);
+  margin: 10px auto;
+}
+.all-q{
+  gap: 25px;
+  padding: 15px;
+}
