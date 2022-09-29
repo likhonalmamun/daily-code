@@ -1,6 +1,8 @@
 import React from "react";
 import "../Activities/Activities.css";
 import Task from "../Task/Task";
+import '../../../src/media.css'
+
 const Activities = ({ activities ,fcn }) => {
   // console.log(activities)
   return (

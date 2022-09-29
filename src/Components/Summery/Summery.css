@@ -67,6 +67,7 @@
   border-radius: 100%;
   margin-right: 10px;
 }
-.task-d , .break-d {
-    color: red;
+.task-d,
+.break-d {
+  color: red;
 }

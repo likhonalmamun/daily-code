@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../Container/Container.css";
 import Activities from "../Activities/Activities";
 import Summery from "../Summery/Summery";
+import '../../media.css'
 let durations = [];
 const Container = () => {
   const [activities, setActivities] = useState([]);
