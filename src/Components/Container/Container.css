@@ -1,0 +1,9 @@
+.container {
+  height: fit-content;
+
+  position: relative;
+ gap: 50px;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: 3.5fr 1.5fr;
+}

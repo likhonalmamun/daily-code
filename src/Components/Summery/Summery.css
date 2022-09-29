@@ -1,0 +1,50 @@
+.summery {
+  
+  height: 1000px;
+  margin-top: 90px;
+  border-radius: 10px;
+  padding: 35px;
+  background-color: rgba(241, 240, 240);
+    color:  rgb(8, 188, 170);
+    box-shadow: gray 0px 0px 10px;
+}
+.user,
+.user-info,
+.break,
+.task-info,
+.break-info {
+  display: flex;
+  /* height: 60px; */
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px ;
+}
+.user-info,
+.break {
+  justify-content: space-evenly;
+}
+.task-info,
+.break-info {
+  justify-content: space-between;
+}
+.break button {
+    border: none;
+    padding: 13px;
+    border: 2px solid rgba(3, 205, 138, 0.825);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(3, 205, 138, 0.825);
+    border-radius: 500px;
+    transition: all 200ms;
+    background-color: aliceblue;
+  }
+ .break button:hover {
+  outline: 1px black solid;
+   color: rgb(70, 68, 68);
+    background: rgba(10, 252, 171, 0.825);
+    border: 2px solid rgba(3, 205, 138, 0.825);
+  }
+.box{
+    
+}

@@ -1,0 +1,16 @@
+.activities{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    padding: 25px;
+    background-color: rgba(241, 240, 240, 0.664);
+    border-radius: 15px;
+    box-shadow: gray 0px 0px 10px;
+    /* gap: 35px; */
+}
+.left h1 {
+    margin-left: 30px;
+    margin-bottom: 25px;
+    color: rgb(41, 43, 132);
+}
