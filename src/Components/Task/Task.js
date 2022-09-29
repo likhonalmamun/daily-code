@@ -1,3 +1,5 @@
+import { faHeartCirclePlus, faPlus } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "../Task/Task.css";
 const Task = ({ task, addTask }) => {
@@ -13,7 +15,7 @@ const Task = ({ task, addTask }) => {
           Duration : <span>{task.duration} </span> min{" "}
         </h3>
       </div>
-      <button onClick={() => addTask(task.duration)}>ADD TASK</button>
+      <button onClick={() => addTask(task.duration)}>ADD TASK  <FontAwesomeIcon style={{color:'purple',fontWeight:'800'}} icon={faHeartCirclePlus}></FontAwesomeIcon> </button>
     </div>
   );
 };

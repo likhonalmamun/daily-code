@@ -28,7 +28,8 @@ const Questions = () => {
           key for creating a single page apllications. when state is changed ,
           react knows that something need be to changed in the UI . Also props
           are immutable , they can not be chaged after passing. But states are
-          always mutable. In fact , Changing is the purpose of using state .
+          always mutable. In fact , Changing the state is the purpose of using
+          state .
         </p>
       </div>
       <div className="question">
@@ -42,8 +43,8 @@ const Questions = () => {
           if we have to do other works like data fething , setting Interval ,
           calling data base or we have to perform any asyncronous task we have
           to go with this useEffect hook . However it is also used to control a
-          group of task that need to be exicuted one time or on change of some
-          particular things by the dependency array of useEffect.
+          group of task that need to be exicuted only one time or on change of
+          some particular things by the dependency array of useEffect.
         </p>
       </div>
     </div>

@@ -78,6 +78,7 @@
   margin: 20px auto;
   border-radius: 7px;
   font-size: large;
+  transition: all 200ms;
 }
 .complete-btn:hover {
   background-color: rgb(154, 36, 250);
