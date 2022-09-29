@@ -1,13 +1,13 @@
 .summery {
-  
   height: 1000px;
   margin-top: 90px;
   border-radius: 10px;
   padding: 35px;
   background-color: rgba(241, 240, 240);
-    color:  rgb(8, 188, 170);
-    box-shadow: gray 0px 0px 10px;
+  color: rgb(8, 188, 170);
+  box-shadow: gray 0px 0px 10px;
 }
+
 .user,
 .user-info,
 .break,
@@ -18,7 +18,7 @@
   margin: 20px auto;
   background-color: white;
   padding: 20px;
-  border-radius: 10px ;
+  border-radius: 10px;
   align-items: center;
 }
 .user-info,
@@ -30,40 +30,40 @@
   justify-content: space-between;
 }
 .break button {
-    border: none;
-    padding: 13px;
-    border: 2px solid rgba(3, 205, 138, 0.825);
-    font-size: 14px;
-    font-weight: 600;
-    color: rgba(3, 205, 138, 0.825);
-    border-radius: 500px;
-    transition: all 200ms;
-    background-color: aliceblue;
-  }
- .break button:hover {
-  outline: 1px black solid;
-   color: rgb(70, 68, 68);
-    background: rgba(10, 252, 171, 0.825);
-    border: 2px solid rgba(3, 205, 138, 0.825);
-  }
-  .box {
-   
-    border-radius: 8px;
-    padding: 4px;
-  }
-  .box:hover{
-    box-shadow: gray 1px 1px 5px;
-    transition: all 250ms;
-  }
-.box h3 , .box h4{
- margin: 3px;
+  border: none;
+  padding: 13px;
+  border: 2px solid rgba(3, 205, 138, 0.825);
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(3, 205, 138, 0.825);
+  border-radius: 500px;
+  transition: all 200ms;
+  background-color: aliceblue;
 }
-.user-info{
-    padding: 20px 0;
+.break button:hover {
+  outline: 1px black solid;
+  color: rgb(70, 68, 68);
+  background: rgba(10, 252, 171, 0.825);
+  border: 2px solid rgba(3, 205, 138, 0.825);
+}
+.box {
+  border-radius: 8px;
+  padding: 4px;
+}
+.box:hover {
+  box-shadow: gray 1px 1px 5px;
+  transition: all 250ms;
+}
+.box h3,
+.box h4 {
+  margin: 3px;
+}
+.user-info {
+  padding: 20px 0;
 }
 .user img {
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 10px;
 }

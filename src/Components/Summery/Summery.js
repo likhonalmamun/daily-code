@@ -1,12 +1,17 @@
 import React from "react";
+import { useEffect } from "react";
 import { useState } from "react";
 import "../Summery/Summery.css";
 const Summery = () => {
 
  let [breakTime , setBreakTime] = useState('')
-
+let storedTime = localStorage.getItem('break')
+useEffect(()=>{if(storedTime){
+    setBreakTime(storedTime)
+}},[])
 function update (time) {
 setBreakTime(time)
+localStorage.setItem('break',time)
 }
 
   return (
@@ -29,7 +34,7 @@ setBreakTime(time)
           <h4>Age</h4>
         </div>
       </div>
-    <h2>  Add a break</h2>
+        <h2>  Add a break</h2>
       <div className="break">
         <button  onClick={()=>update('5m')}>5m</button>
         <button onClick={()=>update('10m')}>10m</button>
@@ -41,7 +46,7 @@ setBreakTime(time)
         <h2>Task Duration : <span>   </span> </h2>
       </div>
       <div className="break-info">
-        <h2>Break Time : {breakTime}<span>  </span> </h2>
+        <h2>Break Time : {breakTime} <span>  </span> </h2>
       </div>
     </div>
   );
