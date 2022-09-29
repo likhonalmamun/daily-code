@@ -1,6 +1,6 @@
 .container {
   height: fit-content;
-
+margin-bottom: 50px;
   position: relative;
  gap: 50px;
   z-index: 5;

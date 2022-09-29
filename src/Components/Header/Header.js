@@ -1,9 +1,12 @@
+import { faTasks } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "../Header/Header.css";
+import "../../media.css"
 const Header = () => {
   return (
     <div className="header">
-      Daily Code
+   <p>  <FontAwesomeIcon icon={faTasks}></FontAwesomeIcon> <span style={{color:"red"}}>Daily</span>  Code </p>
       <hr/>
     </div>
   );

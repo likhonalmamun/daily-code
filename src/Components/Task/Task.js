@@ -1,5 +1,6 @@
 import React from "react";
 import "../Task/Task.css";
+import "../../media.css"
 const Task = ({ task, addTask }) => {
   // console.log(task);
   return (

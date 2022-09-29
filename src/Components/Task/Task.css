@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: space-between;
  transition: all 300ms;
+ 
 }
 .task:hover{
   box-shadow: gray 2px 0px 5px 5px;
@@ -42,7 +43,7 @@
   transition: all 250ms;
   border: 2px solid rgba(3, 205, 138, 0.825);
 }
-button:hover {
+.task button:hover {
   /* font-size: 14px;
   font-weight: 400; */
   background-color: aliceblue;
